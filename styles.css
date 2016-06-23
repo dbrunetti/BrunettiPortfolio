@@ -1,0 +1,162 @@
+h1 {
+	color: #99ffff;
+	position: relative;
+	left:20px;
+	font-family: 'PTSans', 'Quicksand-Regular', sans-serif;
+}
+
+h3 {
+	font-family: 'PTSans', 'Quicksand-Regular', sans-serif;
+	font-weight: bold;
+}
+
+ol>li {
+	list-style-type: upper-roman;
+	font-family: serif;
+}
+
+p {
+	font-size: 16px;
+	font-family: serif;
+	line-height: 1.4em;
+}
+
+#header {
+	display: inline;
+	position: relative;
+	top:30px;
+	left:10px;
+}
+
+.home-images {
+	display:inline;
+	width: 30%;
+	border-radius: 10px;
+	border: 1px solid #99ffff;
+	margin-right: 5px;
+	position:relative;
+	top: 30px;
+}
+
+#background {
+	min-height: 100%;
+	min-width: 1024px;
+	width:100%;
+	height: auto;
+	position: fixed;
+	top:0;
+	left:0;
+	opacity:0.7;
+}
+
+@media screen and (max-width: 1024px){
+	#background {
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+
+a {
+	background-color: #e6e6e6;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+blockquote {
+	max-width: 25em;
+	background-color:white;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	padding: 1em;
+}
+
+fieldset {
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	width: 15em;
+	border-radius: 1em;
+}
+
+legend {
+	border-radius: 1em;
+	background color: #f2f2f2;
+	font-family: 'PTSans', 'Quicksand-Regular', sans-serif;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+textarea{
+	border-radius: 1em;
+	padding: 5px;
+}
+
+#send {
+	background-color: #ccffcc;
+	padding: 5px;
+	border-radius: 1em;
+	position: relative;
+	top: -1em;
+	left: 1em;
+	font-size: 16px;
+	border: 1px solid black;
+}
+
+.other-page {
+	background-color: #e6e6e6;
+}
+
+.homeless {
+	color: black;
+}
+
+.other-page a{
+	background-color: #008080;
+	color: black;
+}
+
+#f {
+	display:inline;
+	padding-top:10px;
+	margin-top: 10px;
+}
+
+.about {
+	display:inline;
+	margin-right: 10%;
+}
+
+#spurs {
+	color: blue;
+	background-color: transparent;
+	padding: 2px;
+}
+
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src: url('quicksand/Quicksand-Regular.otf');
+}
+
+h1.home{
+	font-family: 'Quicksand-Regular', 'PT Sans', sans-serif;
+}
+
+input:hover, textarea:hover,  {
+	color: #008080;
+	border: 2px solid black;
+}
+
+input:focus, textarea:focus {
+	border:3px solid orange;
+	background-color: #99ffff;
+	};
+}
+input {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
