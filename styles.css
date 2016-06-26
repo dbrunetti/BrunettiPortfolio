@@ -1,7 +1,8 @@
 h1 {
 	color: #99ffff;
 	position: relative;
-	left:20px;
+	left:30px;
+	bottom: 8px;
 	font-family: 'PTSans', 'Quicksand-Regular', sans-serif;
 	font-weight: bold;
 }
@@ -25,18 +26,46 @@ p {
 #header {
 	display: inline;
 	position: relative;
-	top:30px;
-	left:10px;
+	left:500px;
+	bottom:58px;
+}
+
+.bar {
+	background-color: #333333;
+	position: fixed;
+	margin-left: -30px;
+	margin-top: -15px;
+	width: 110%;
+	height: 60px;
+}
+
+.bar2 {
+	background-color: #333333;
+	position: fixed;
+	margin-left: -30px;
+	margin-top: -20px;
+	width: 110%;
+	height: 60px;
+}
+
+.bar3 {
+	background-color: #333333;
+	position: fixed;
+	margin-left: -30px;
+	margin-top: -20px;
+	width: 110%;
+	height: 60px;
 }
 
 .home-images {
 	display:inline;
-	width: 30%;
+	width: 27.5%;
 	border-radius: 10px;
 	border: 1px solid #99ffff;
 	margin-right: 5px;
 	position:relative;
 	top: 30px;
+	left: 30px;
 }
 
 #background {
@@ -57,12 +86,24 @@ p {
 	}
 }
 
+.home-links {
+	background-color: #e6e6e6;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	position:relative;
+	top: 2px;
+}
+
 a {
 	background-color: #e6e6e6;
 	text-decoration: none;
 	padding: 8px;
 	border-radius: 5px;
 	cursor: pointer;
+	position: relative;
+	bottom: 12px;
 }
 
 blockquote {
@@ -72,6 +113,7 @@ blockquote {
 	border-top-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	padding: 1em;
+	margin-bottom: 2em;
 }
 
 fieldset {
@@ -82,12 +124,22 @@ fieldset {
 	border-radius: 1em;
 }
 
+form {
+	position: relative;
+	top: 60px;
+}
+
 legend {
 	border-radius: 1em;
 	background color: #f2f2f2;
 	font-family: 'PTSans', 'Quicksand-Regular', sans-serif;
 	border: 1px solid black;
 	padding: 5px;
+}
+
+button {
+	position:relative;
+	top: 65px;
 }
 
 textarea{
@@ -111,7 +163,27 @@ textarea{
 }
 
 .homeless {
-	color: black;
+	color: #bfbfbf;
+	position: relative;
+	bottom: 2px;
+}
+
+.about-container {
+	position:fixed;
+	width: 1000px;
+	margin: bottom: 10px;
+}
+
+.contact-container {
+	position:fixed;
+	width:1000px;
+	margin-top: -18px;
+}
+
+.a-con {
+	position:relative;
+	left:420px;
+	bottom:53px;
 }
 
 .other-page a{
@@ -125,15 +197,23 @@ textarea{
 	margin-top: 10px;
 }
 
+#shift {
+	position:relative;
+	top:50px;
+	z-index: -1;
+}
+
 .about {
 	display:inline;
 	margin-right: 10%;
+	margin-top: -10px;
 }
 
 #spurs {
-	color: blue;
+	color: navy;
 	background-color: transparent;
 	padding: 2px;
+	top: 0px;
 }
 
 @font-face {
@@ -160,4 +240,13 @@ input {
 	padding-bottom: 3px;
 }
 
+#javafun {
+	margin-top: 4px;
+}
+
+button {
+	position:relative;
+	right: 200px;
+	top: 40px;
+}
 
